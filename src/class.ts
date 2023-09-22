@@ -29,4 +29,10 @@ export class Student extends Person{
     }
 }
 
-export class Teacher extends Person {}
+// Polimorfismo
+
+export class Teacher extends Person {
+    sayMyName(): void {
+        console.log(`Sou o professor ${this.name}`);
+    }
+}
