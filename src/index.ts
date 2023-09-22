@@ -1,6 +1,3 @@
-import { Person } from "./class";
-import { ProductList } from "./static";
-
 /*
 const person1 = new Person("Alex");
 
@@ -12,6 +9,15 @@ const person2 = new Person("Osvaldo");
 person2.sayMyName();
 */
 
+import { Student } from "./class";
+
+/*
 ProductList.addProduct("Computador");
 ProductList.getProducts();
+*/
+
+const student1 = new Student("Alex", "M4");
+student1.sayMyName();
+student1.sayMyModule();
+
 
