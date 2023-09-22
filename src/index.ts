@@ -1,5 +1,3 @@
-import { Teacher } from "./class";
+import { Person } from "./class";
 
-const teacher = new Teacher("Alex");
-
-teacher.sayMyName();
+const person = new Person("Alex");

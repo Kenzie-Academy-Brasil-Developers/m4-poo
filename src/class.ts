@@ -1,5 +1,6 @@
 export class Person{
-    name: string;
+    //protected - restringe o uso do recurso na instância
+    protected name: string;
 
     constructor(name: string){
         this.name = name;
@@ -9,7 +10,8 @@ export class Person{
         console.log(message);
     }
 
-    sayMyName(){
+    //private - restringe o uso na instância e também na herança
+    private sayMyName(){
         console.log(`Me chamo ${this.name}`);
     }
 }
