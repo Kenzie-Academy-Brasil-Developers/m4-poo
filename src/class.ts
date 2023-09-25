@@ -32,6 +32,4 @@ export class Student extends Person{
     }
 }
 
-// Polimorfismo
-
 export class Teacher extends Person {}
